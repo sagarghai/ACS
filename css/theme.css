@@ -1,0 +1,160 @@
+body{
+    background-color: #eee;
+}
+
+.publications{
+    margin-top: -200px;
+}
+
+.publitext{
+   
+    font-size:21px;
+}
+.custom-header{
+    background-color: #274ff5;
+    margin-top: 30px;
+   margin-left: auto;
+    margin-right: auto;
+    height:220px;
+    border-radius: 15px;
+    color: white;
+}
+.custom-menu{
+    color:white;
+    background-color: #123ce8;
+    height:35px;  
+}
+
+.footer{
+    padding-left: 15px;
+    color:white;
+    position:fixed;
+    height:50px;
+    background-color:#274ff5;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    font-size: 8px;
+}
+
+.hr4{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+.bodytext{
+    margin-top: -70px;
+    margin-bottom: -60px;
+}
+
+
+.custom-heading>h2{
+    font-size:44px;
+    font-family: 'Ubuntu', sans-serif;
+}
+    
+.brand-name{
+    font-size: 18px;
+    padding-top: 30px;
+}    
+
+.brand-image{
+    float:left;
+}
+
+.brand-image>img{
+      height:80px;
+    width:auto;
+}
+@media (min-width:992px)
+    {
+.introhead{
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+}
+.logo-image{
+    float:right;
+    cursor:pointer;
+}
+
+.logo-image>img{
+    height:80px;
+    width:auto;
+}
+
+.custom-carousel{
+    margin-top:-100px;
+    margin-bottom: 20px;
+}
+
+.faculty>.row>address>h3{
+    margin-top:0px;
+    margin-bottom:5px;
+    
+}
+
+.faculty>.row>img{
+    height:auto;
+  .  width:auto;
+    max-width:100%; 
+}
+
+@media (max-width:992px){
+    .logo-image{
+        height:0px;
+        width;0px;
+        visibility:hidden;
+    }
+    
+    .brand-image{
+         height:0px;
+        width;0px;
+        visibility:hidden;
+    }
+    
+    .custom-header{
+      margin-left: auto;
+      margin-right: auto;
+      height:auto;
+  }
+    .custom-menu{
+    color:white;
+    background-color: #123ce8;
+    height:35px;  
+    z-index:100;
+}
+
+    .introhead{
+        font-size: 34px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .faculty>.row>img{
+    height:100px;
+    width:120px;
+    max-width:100%; 
+    }
+     .bodytext>ul>li>h3>b{
+        font-size: 22px;
+    }
+    .bodytext>ul>li>p{
+        font-size:18px;
+    }
+}
+
+@media (max-width:430px){
+    .custom-heading>p{
+        font-size: 16px;}
+    .introhead{
+        font-size:24px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .bodytext>h3>b{
+        font-size: 18px;
+    }
+    .bodytext>p{
+        font-size:16px;
+    }
+}
