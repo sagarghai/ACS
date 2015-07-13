@@ -54,8 +54,10 @@ body{
 
 
 .custom-heading>h2{
-    font-size:44px;
+    font-size: 80px;
+    font-style: bold;
     font-family: 'Ubuntu', sans-serif;
+    margin-top : -10px;
 }
     
 .brand-name{
@@ -63,14 +65,15 @@ body{
     padding-top: 30px;
 }    
 
-.brand-image{
-    float:left;
-}
+/*.brand-image > img{
+    width: 80px;
+    height: auto;
+}*/
 
-.brand-image>img{
+/*.brand-image>img{
       height:80px;
     width:auto;
-}
+}*/
 @media (min-width:992px)
     {
 .introhead{
